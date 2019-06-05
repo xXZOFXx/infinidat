@@ -1,0 +1,385 @@
+
+*{
+
+padding: 0px;
+  margin: 0px;
+}
+
+
+
+.box{
+
+width: 100%;
+max-width: 700px;
+height: auto;
+
+}
+
+.magic{
+
+  padding-top: 2%;
+
+}
+
+.textos{
+
+padding: 40px;
+padding-left: 50px;
+text-align: left;
+
+
+}
+
+h2{
+
+text-align: center;
+color: white;
+
+}
+
+.parrafos{
+text-shadow: 5px 5px 5px black;
+font-size:35px;
+
+}
+
+
+  p{
+
+    text-align: left!important;
+
+}
+
+h4{
+
+  text-align: left!important;
+
+}
+
+body{
+
+font-family: 'Fjalla One', sans-serif !important;
+
+}
+
+
+
+.background{
+
+  background-image: url(../images/server1.jpeg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-color: #2f628d;
+
+
+}
+
+
+.formulario p{
+
+  margin-bottom:0px !important;
+  color: #ffff;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.box-form{
+
+background: rgba(17, 135, 114, 0.8);
+margin: 20px;
+
+}
+
+.btnEnviar{
+
+margin: 20px;
+
+
+}
+
+/*cartas*/
+
+.cartas{
+
+background: #25988d;
+
+
+}
+
+
+.card{
+
+margin: 20px;
+
+
+}
+
+.center-block{
+
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.card-img-top{
+
+margin-top: 20px;
+
+
+}
+
+
+.card-title{
+
+text-align: center;
+
+}
+
+h3{
+
+font-size: 40px;
+
+}
+
+.card-deck{
+
+border-bottom-style: solid;
+padding-bottom: 50px;
+border-bottom-width: 0px;
+
+
+}
+
+
+.cuadro{
+
+  padding: 3%;
+  background-color: #25988d;
+
+}
+
+.imagen{
+
+margin: 30px;
+color: white;
+
+
+}
+
+.modal-lg{
+
+max-width: 1800px;
+
+
+}
+
+.close{
+
+color: white;
+
+}
+/*footer*/
+
+
+#myFooter {
+	background-color: #505d65;
+	color:white;
+}
+
+#myFooter .footer-copyright{
+	background-color: #383737;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#myFooter .footer-copyright p{
+	margin:10px;
+	color: #ccc;
+}
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5{
+	font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a{
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#myFooter .myCols{
+	text-align: center;
+}
+
+#myFooter .social-networks{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 38px;
+}
+
+#myFooter .social-networks a{
+
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
+}
+
+
+
+
+#myFooter{
+	flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
+
+
+.grupo{
+
+margin-bottom:50px;
+
+}
+
+.grupo h2 {
+text-align: center;
+color: #0B243B;
+
+}
+
+
+
+.grupo b{
+
+color: #0B243B;
+
+}
+
+
+.footer{
+
+background-color: #383737;
+padding-top: 3px;
+padding-bottom: 3px;
+text-align: center;
+color: white;
+
+}
+
+
+
+.col-md-4{
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+
+}
+
+.contacto{
+
+padding: 30px;
+text-align: center;
+}
+
+.texto{
+
+margin-top: 80px!important;
+
+}
+
+.modal-content{
+
+color: white;
+
+}
+
+.modal-header{
+
+background-color: #9f4141;
+
+}
+
+.modal-footer{
+
+background-color: #9f4141;
+
+}
+
+.textos h4{
+
+text-align: right;
+
+
+}
+.gratis{
+
+width: 89%;
+color: white;
+
+
+}
+
+.inicio h1{
+
+text-shadow: 5px 5px 5px black;
+font-size: 85px;
+text-align: center;
+
+}
+
+@media (max-width: 1620px) {
+
+  .inicio h1{
+
+    font-size: 55px;
+
+  }
+
+  .gratis h2{
+
+    font-size: 26px;
+
+  }
+
+
+
+}
+
+
+
+
+@media (max-width: 1080px) {
+
+
+  .boton{
+
+
+  width: 232px !important;
+
+  }
+
+}
