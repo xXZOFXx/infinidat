@@ -1,8 +1,8 @@
 <?php
-	
-	//Proceso de conexión con la base de datos
+
+	//Proceso de conexiï¿½n con la base de datos
 	include("conexion.php");
-			
+
 	$nombre = $_POST['nombre'];
 	$apellidos = $_POST['apellidos'];
 	$empresa = $_POST['empresa'];
@@ -10,7 +10,7 @@
 	$telefono = $_POST['telefono'];
 	$pais = $_POST['pais'];
 	$comentarios = $_POST['comentarios'];
-	$producto = "Fortinet";
+	$producto = "Infinidat";
 	$oculto = $_POST['oculto'];
 
 	// specify params - MUST be a variable that can be passed by reference!
@@ -43,7 +43,7 @@
 		if( !$stmt ) {
 			die( print_r( sqlsrv_errors(), true));
 		}
-		
+
 		if(sqlsrv_execute($stmt)){
 				while($res = sqlsrv_next_result($stmt)){
 				// make sure all result sets are stepped through, since the output params may not be set until this happens
@@ -58,7 +58,7 @@
 			//echo '<script language = javascript>
 			//alert("Favor de intentarlo de nuevo.")
 			//self.location = "index.html"
-			//</script>';¨
+			//</script>';ï¿½
 		}
 
 
@@ -67,15 +67,15 @@
 	    $mail = new PHPMailer();
 	    $mail -> CharSet = "UTF-8";
 
-	    $mail->From     = $correo; 
-	    $mail->FromName = $nombre; 
-	    $mail->AddAddress("joel.bravo@eclipsemex.com"); // Dirección a la que llegaran los mensajes.
-	    $mail->AddAddress("contacto@eclipsemex.com"); // Dirección a la que llegaran los mensajes.
-	    
-	    // Aquí van los datos que apareceran en el correo que reciba
+	    $mail->From     = $correo;
+	    $mail->FromName = $nombre;
+	    $mail->AddAddress("ricardo.zuniga@eclipsemex.com"); // Direcciï¿½n a la que llegaran los mensajes.
+	//    $mail->AddAddress("contacto@eclipsemex.com"); // Direcciï¿½n a la que llegaran los mensajes.
 
-	    $mail->WordWrap = 50; 
-	    $mail->IsHTML(true);     
+	    // Aquï¿½ van los datos que apareceran en el correo que reciba
+
+	    $mail->WordWrap = 50;
+	    $mail->IsHTML(true);
 	    $mail->Subject  =  "Solicitud de informacion - Fortinet";
 	    $mail->Body     =  "Una persona solicita informacion acerca de Fortinet, estos son sus datos:<br><br>".
 	                        "Nombre: " . $nombre . " <br> ".
@@ -88,11 +88,11 @@
 
 	    // Datos del servidor SMTPS
 
-	    $mail->IsSMTP(); 
+	    $mail->IsSMTP();
 	    $mail->Host = "mail.eclipsemex.com";  // Servidor de Salida.
-	    $mail->SMTPAuth = true; 
-	    $mail->Username = "david.reyes@eclipsemex.com";  // Correo Electrónico
-	    $mail->Password = "DReyes@2016"; // Contraseña
+	    $mail->SMTPAuth = true;
+	    $mail->Username = "david.reyes@eclipsemex.com";  // Correo Electrï¿½nico
+	    $mail->Password = "DReyes@2016"; // Contraseï¿½a
 
 	    if ($mail->Send()){
 	        echo "<script>alert('Formulario Enviado'); window.location.href = 'index.html';</script>";

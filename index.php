@@ -56,7 +56,7 @@
                         <h2 style="margin-top: -46px;margin-bottom: 2.5rem; "><bold style="color:#ee9b38; font-size:55px; font-weight:50px; ">GRATIS</bold> una DEMO de nuestra solución y le explicaremos como Infinidat puede ayudarle. </h2>
                       </div>
 
-                      <form class="container" id="form-validation" method="post">
+                      <form class="container" id="form-validation">
                         <div class="row">
                           <div class="col-md-6 mb-3" style="margin-top: -21px;">
                             <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"></span></label>
@@ -694,7 +694,7 @@ function cambiarPdf2() {
             alert("Llenar los campos requeridos");
             console.log("Llenar los campos requeridos");
         } else{
-          $.ajax({
+          /*$.ajax({
               url: 'ingresarDatos.php',
               type: 'POST',
               data: {
@@ -712,7 +712,7 @@ function cambiarPdf2() {
                 alert('Registro enviado.');
                 window.location.replace("https://www.eclipsemex.com");
               }
-          });
+          });*/
         }
     }
   </script>
