@@ -53,7 +53,9 @@
 
                     <div class="box-form" style="padding-top: 67px;padding-bottom: 0px;">
                       <div class="col gratis" align="center">
-                        <h2 style="margin-top: -46px;margin-bottom: 2.5rem; "><bold style="color:#ee9b38; font-size:55px; font-weight:50px; ">GRATIS</bold> una DEMO de nuestra solución y le explicaremos como Infinidat puede ayudarle. </h2>
+                        <h2 style="margin-top: -46px;margin-bottom: 2.5rem; "><bold style="color:#ee9b38; font-size:55px; font-weight:50px; ">GRATIS</bold> una DEMO de nuestra solución o bien si ya cuentas con Storage Capacity nosotros la remplazamos totalmente <b>GRATIS.</b> </h2>
+                        <P style="text-align:center!important;">Si deseas más información, compartenos tus datos:</P>
+                         <br>
                       </div>
 
                       <form class="container" id="form-validation">
@@ -393,7 +395,10 @@
                           </div>
 
                       </form>
+                      <p style="padding-bottom: 5%!important; text-align: center!important;" >*Sólo aplica para marca Dell/EMC, NetApp, Hitachi, IBM, Pure Sotorage y HP</p>
                     </div>
+
+
                   </div>
 
                 </div>
